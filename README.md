@@ -1,4 +1,4 @@
-# router-baseline
+# A simple vue js app as a demonstration of vue router to create a better user experience
 
 ## Project setup
 ```

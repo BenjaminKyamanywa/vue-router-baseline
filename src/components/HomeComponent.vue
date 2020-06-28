@@ -7,9 +7,9 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">Blog</b-nav-item>
-        <b-nav-item href="#">Services</b-nav-item>
-        <b-nav-item href="#">Contact</b-nav-item>
+        <b-nav-item to="/blog">Blog</b-nav-item>
+        <b-nav-item to="/services">Services</b-nav-item>
+        <b-nav-item to="/contact">Contact</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

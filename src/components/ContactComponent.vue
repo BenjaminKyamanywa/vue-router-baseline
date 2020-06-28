@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'Contact',
+    name: 'Contact Component',
     data() {
         return {
             title: 'Contact'

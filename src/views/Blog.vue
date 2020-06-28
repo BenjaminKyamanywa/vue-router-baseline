@@ -6,7 +6,7 @@
 
 <script>
 
-import BlogComponent from '@/components/Blog.vue'
+import BlogComponent from '@/components/BlogComponent.vue'
 export default {
   name: 'Blog',
   components: {

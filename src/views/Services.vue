@@ -6,7 +6,7 @@
 
 <script>
 
-import ServicesComponent from '@/components/Services.vue'
+import ServicesComponent from '@/components/ServicesComponent.vue'
 export default {
     name: 'Services',
     components: {

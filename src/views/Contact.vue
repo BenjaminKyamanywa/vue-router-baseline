@@ -1,10 +1,17 @@
 <template>
-  
+  <div>
+      <ContactComponent />
+  </div>
 </template>
 
 <script>
-export default {
+import ContactComponent from '@/components/Contact.vue'
 
+export default {
+    name: 'Contact',
+    components: {
+        ContactComponent
+    }
 }
 </script>
 

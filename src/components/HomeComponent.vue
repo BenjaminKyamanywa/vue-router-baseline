@@ -14,7 +14,8 @@
       </b-collapse>
     </b-navbar>
     <div class="row">
-      <div class="col-md-4 col-lg4" v-for="(data,index) in products" :key="index">
+      <div class="col-md-4 col-lg4" 
+      v-for="(data,index) in products" :key="index">
         <img :src="data.image" class="img-fluid" />
         <h3>{{data.productTitle}}</h3>
       </div>
@@ -62,3 +63,10 @@ export default {
   })
 };
 </script>
+
+<style scoped>
+ .row {
+   margin: 8px 15px;
+ }
+
+</style>

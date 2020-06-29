@@ -17,7 +17,7 @@
       <div class="col-md-4 col-lg4" 
       v-for="(data,index) in products" :key="index">
         <img :src="data.image" class="img-fluid" />
-        <h3>{{data.productTitle}}</h3>
+        <h3 @click="goTodetail()">{{data.productTitle}}</h3>
       </div>
     </div>
   </div>
@@ -60,8 +60,12 @@ export default {
         productId: 6
       }
     ]
-  })
-};
+  }),
+  methods: {
+    goTodetail() {    this.$router.push({name:'details'})
+  }
+}
+}
 </script>
 
 <style scoped>

@@ -62,7 +62,7 @@ export default {
     ]
   }),
   methods: {
-    goTodetail() {    this.$router.push({name:'details'})
+    goTodetail() {this.$router.push({name:'Details'})
   }
 }
 }
